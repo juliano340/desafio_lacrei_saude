@@ -1,6 +1,5 @@
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import Head from 'next/head';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -10,6 +9,9 @@ const Container = styled.div`
   margin: 0 auto;
   text-align: center;
   min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
 `;
 
 const Title = styled.h1`
@@ -27,10 +29,7 @@ const Text = styled.p`
 const Desafio: React.FC = () => {
   return (
     <>
-    <Head>
-    <title>Lacrei Saúde - Desafio Técnico</title>''
-    </Head>
-    <Header/>
+    <Header />
     <Container>
       <Title>Desafio Lacrei Saúde</Title>
       <Text>
@@ -43,7 +42,7 @@ const Desafio: React.FC = () => {
         em um cenário realista.
       </Text>
     </Container>
-    <Footer/>
+    <Footer />
     </>
   );
 };
