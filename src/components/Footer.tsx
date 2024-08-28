@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin,  } from 'react-icons/fa';
+import { CiMail } from "react-icons/ci";
+
 
 const FooterContainer = styled.footer`
   background-color: #018762; /* Fundo verde */
@@ -99,10 +101,10 @@ export default function Footer() {
         <Section>
           <h3>Siga-nos</h3>
           <SocialIcons>
-            <SocialLink href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></SocialLink>
-            <SocialLink href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></SocialLink>
-            <SocialLink href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></SocialLink>
-            <SocialLink href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></SocialLink>
+            <SocialLink href="https://www.facebook.com/lacrei.saude/" target="_blank" rel="noopener noreferrer"><FaFacebook /></SocialLink>
+            <SocialLink href="contato@lacreisaude.com.br" target="_blank" rel="noopener noreferrer"><CiMail /></SocialLink>
+            <SocialLink href="https://www.instagram.com/lacrei.saude" target="_blank" rel="noopener noreferrer"><FaInstagram /></SocialLink>
+            <SocialLink href="https://www.linkedin.com/company/lacrei" target="_blank" rel="noopener noreferrer"><FaLinkedin /></SocialLink>
           </SocialIcons>
         </Section>
       </FooterContent>
