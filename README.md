@@ -3,6 +3,10 @@
 
 Este é um projeto desenvolvido como parte de um desafio técnico para demonstrar habilidades em desenvolvimento web utilizando Next.js e styled-components. O objetivo é criar uma interface moderna, responsiva e acessível, seguindo as diretrizes fornecidas pela Lacrei Saúde.
 
+# Deploy
+
+O projeto está sendo executado em produção e pode ser acessado através do link: https://desafio-lacrei-saude-ten.vercel.app/
+
 ## 📋 Visão Geral
 
 O projeto consiste em uma aplicação web que inclui:
