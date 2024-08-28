@@ -114,7 +114,7 @@ O teste que foi criado verifica se a página "Desafio" é carregada com sucesso 
 
 ### Executando os Testes E2E
 
-Para executar os testes do Cypress sem a interface gráfica, você pode usar o seguinte comando no terminal:
+Após executar o projeto, conforme indicado acima, para executar os testes do Cypress sem a interface gráfica, você pode usar o seguinte comando no terminal:
 
 ```bash
 npx cypress run
@@ -141,6 +141,27 @@ Este comando irá rodar todos os testes definidos na pasta `cypress/e2e` em modo
 Após a execução, o Cypress gerará relatórios que mostram quais testes passaram ou falharam. Se necessário, você pode configurar o Cypress para gerar vídeos ou capturas de tela dos testes.
 
 Os testes E2E com Cypress ajudam a garantir que toda a aplicação funcione conforme esperado do ponto de vista do usuário final, validando o comportamento em diferentes navegadores e situações.
+
+## 📱 Responsividade
+
+Este projeto foi desenvolvido com foco em responsividade, garantindo que a aplicação funcione bem em dispositivos de diferentes tamanhos de tela, desde desktops até smartphones.
+
+### Como a Responsividade foi Implementada
+
+- **Media Queries:** Foram utilizadas media queries para ajustar o layout e os estilos dos componentes em diferentes larguras de tela.
+- **Design Mobile-First:** O design foi criado com a abordagem mobile-first, garantindo que a experiência em dispositivos móveis seja priorizada.
+
+### Demonstrando a Responsividade
+
+Você pode testar a responsividade da aplicação de várias maneiras:
+
+1. **Ferramentas de Desenvolvedor do Navegador:** Utilize as ferramentas de desenvolvedor do seu navegador (como o Chrome DevTools) para simular diferentes tamanhos de tela e testar a responsividade do layout.
+
+2. **Dispositivos Reais:** Acesse a aplicação em diferentes dispositivos, como smartphones e tablets, para ver como o layout se adapta.
+
+3. **Teste de Redimensionamento:** No navegador, redimensione a janela manualmente para observar como os componentes se reorganizam e se adaptam ao espaço disponível.
+
+A responsividade é fundamental para garantir uma boa experiência de usuário em qualquer dispositivo, e este projeto foi cuidadosamente desenvolvido para atender a esse requisito.
 
 ---
 
