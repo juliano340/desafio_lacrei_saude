@@ -17,7 +17,7 @@ const StyledHeader = styled.header`
     height: 80px;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 570px) {
     flex-direction: column;
     height: auto;
     margin: 10px;
@@ -29,14 +29,11 @@ const Logo = styled.img`
   height: 24px;
 
   @media (max-width: 768px) {
-    width: 134px;
-    height: 16px;
+    width: 187px;
+    height: 24px;
   }
 
-  @media (max-width: 480px) {
-    width: 120px;
-    height: 14px;
-  }
+ 
 `;
 
 const ButtonContainer = styled.div`
