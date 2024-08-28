@@ -12,6 +12,11 @@ const StyledHeader = styled.header`
   justify-content: space-between;
   align-items: center;
 
+  @media (max-width: 896px) {
+    margin: 0px 15px;
+    height: 80px;
+  }
+
   @media (max-width: 768px) {
     margin: 0px 20px;
     height: 80px;
